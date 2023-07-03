@@ -1,0 +1,228 @@
+:root {
+     --main-text-color: #434455;
+     --secondary-text-color: #2E2F42;
+     --main-bg-color: #FFF;
+     --secobdary-bg-color: #F4F4FD;
+     --main-focus-color: #4D5AE5;
+     --secondary-focus-color: #404BBF;
+}
+
+body {
+     font-family: 'Roboto', sans-serif;
+     background-color: var(--main-bg-color);
+     color: var(--main-text-color)
+}
+
+.link {
+     text-decoration: none;
+}
+
+.list {
+     list-style: none;
+}
+
+/* logo */
+
+.navigation-logo {
+      font-size: 18px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 800;
+      line-height: 1.17;
+      letter-spacing: 0.54px;
+      text-transform: uppercase;
+      color: var(--main-focus-color);
+}
+
+.logo-part {
+     color: var(--secondary-text-color);
+}
+
+/* Header navigation */
+
+.navigation-list .item-link {
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: var(--secondary-text-color);
+}
+
+.navigation-list .item-link:hover,
+.navigation-list .item-link:focus {
+     color: var(--secondary-focus-color);
+}
+
+.contacts-nav {
+     font-style: normal;
+}
+
+.contacts-list .item-link {
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: var(--main-text-color);
+}
+
+.contacts-list .item-link:hover,
+.contacts-list .item-link:focus {
+     color: var(--secondary-focus-color);
+}
+
+/* Hero section */
+
+.hero {
+     background-color: var(--secondary-text-color);
+}
+
+.hero-title {
+      font-size: 56px;
+      font-weight: 700;
+      line-height: 1.07;
+      letter-spacing: 0.02em;
+      text-align: center;
+      color: var(--main-bg-color);
+}
+
+.hero-button {
+      font-size: 16px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      background-color: var(--main-focus-color);
+      color: var(--main-bg-color);
+      cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+     background-color: var(--secondary-focus-color);
+}
+
+/* Features section */
+
+.features-list .item-title {
+      font-size: 20px;
+      font-family: Roboto;
+      font-weight: 500;
+      line-height: 1.2;
+      letter-spacing: 0.02em;
+      color: var(--secondary-text-color);
+}
+
+.features-list .item-text {
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: var(--main-text-color);
+}
+
+/* Work section */
+
+.work-title {
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 1.11;
+      letter-spacing: 0.02em;
+      text-transform: capitalize;
+      text-align: center;
+      color: var(--secondary-text-color);
+}
+
+/* Team section */
+
+.team {
+     background-color: var(--secobdary-bg-color);
+}
+
+.team-title {
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 1.11;
+      letter-spacing: 0.02em;
+      text-transform: capitalize;
+      text-align: center;
+      color: var(--secondary-text-color);
+}
+
+.team-list .list-item {
+     background-color: var(--main-bg-color);
+}
+
+.team-list .item-title {
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 1.2;
+      letter-spacing: 0.02em;
+      color: var(--secondary-text-color);
+}
+
+.team-list .item-text {
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: var(--main-text-color);
+}
+
+/* Footer */
+
+.second-logo {
+     background-color: var(--secondary-text-color);
+}
+
+.second-logo-link {
+      font-size: 18px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 800;
+      line-height: 1.17;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: var(--main-focus-color);
+}
+
+.second-logo-part {
+     color: var(--secobdary-bg-color);
+}
+
+.second-logo-text {
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: var(--secobdary-bg-color);
+}
+
+/* Portfolio services */
+
+.services-list .item-button {
+      font-size: 16px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      color: var(--main-focus-color);
+      background-color: var(--secobdary-bg-color);
+      cursor: pointer;
+}
+
+.services-list .item-button:hover,
+.services-list .item-button:focus {
+     color: var(--main-bg-color);
+     background-color: var(--secondary-focus-color);
+}
+
+/* Images */
+
+.images-list .item-title {
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 1.2;
+      letter-spacing: 0.02em;
+      color: var(--secondary-text-color);
+}
+
+.images-list .item-text {
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: var(--main-text-color)
+}
