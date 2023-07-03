@@ -100,6 +100,7 @@ body {
      color: var(--secondary-text-color);
      padding-top: 24px;
      padding-bottom: 24px;
+     display: block;
 }
 
 .header-link:hover,
@@ -151,6 +152,9 @@ body {
      text-align: center;
      color: var(--main-bg-color);
      max-width: 496px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 48px;
 }
 
 .hero-button {
@@ -167,6 +171,8 @@ body {
      height: 56px;
      border: none;
      border-radius: 4px;
+     margin-left: auto;
+     margin-right: auto;
 
 }
 
@@ -321,6 +327,7 @@ body {
      line-height: 1.5;
      letter-spacing: 0.02em;
      color: var(--secobdary-bg-color);
+     max-width: 264px;
 }
 
 /* Portfolio services */
