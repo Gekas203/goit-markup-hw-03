@@ -145,6 +145,11 @@ img {
     margin-bottom: 72px;
 }
 
+.hero section {
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+
 .hero {
     background-color: #2e2f42;
 }
@@ -159,6 +164,7 @@ img {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 48px;
+    max-width: 496px;
 }
 
 .hero-button {
@@ -171,6 +177,10 @@ img {
     margin-right: auto;
     margin-left: auto;
     display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .hero-button:hover,
@@ -181,6 +191,9 @@ img {
 .benefits-list {
     display: flex;
     gap: 24px;
+}
+
+.benefits-item {
     width: calc((100%-72)/4);
 }
 
@@ -190,6 +203,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .benefits-item-text {
@@ -206,16 +220,16 @@ img {
 .team-item {
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
+    width: calc((100%-72)/4);
 }
 
 .team-list {
     display: flex;
     gap: 24px;
-    width: calc((100%-72)/4);
 }
 
 .team-item-container {
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 
 .team-item-title {
@@ -225,7 +239,7 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .team-item-text {
@@ -239,9 +253,9 @@ img {
 .portfolio-list {
     display: flex;
     flex-wrap:wrap;
-    row-gap: 24px;
-    column-gap: 48px;
-    width: calc((100%-120)/6);
+    column-gap: 24px;
+    row-gap: 48px;
+    width: calc((100%-48)/3);
 }
 
 .portfolio-item-title {
@@ -250,6 +264,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .portfolio-item-text {
@@ -272,6 +287,7 @@ img {
 /*=============FOOTER STYLES==========*/
 .page-footer {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 .footer-logo .logo-color {
@@ -283,6 +299,11 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 /*============/FOOTER STYLES==========*/
